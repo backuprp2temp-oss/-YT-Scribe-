@@ -276,3 +276,5 @@ app.get('*', (req, res) => {
 app.listen(PORT, () => {
     console.log(`✨ YT-Scribe server running at http://localhost:${PORT}`);
 });
+
+module.exports = app;
